@@ -1,0 +1,65 @@
+/* CSS RESET */
+{
+    margin: 0;
+    padding: 0;
+}
+
+/* SKY STYLING */
+.sky{
+width: 100vw;
+height: 100vh;
+background-image:url("sky.jpg");
+background-repeat:no-repeat;
+background-size: cover;
+position:absolute;
+}
+
+/* Tree styling and Positioning */
+.tree{
+height:100vh;
+background-image: url("tree-preservation-slide-removebg-preview.png");
+background-repeat: no-repeat;
+background-size: cover;   
+}
+
+/* Track styling and Positioning */
+.track{
+background-image: url("racetrack.jpg");
+background-repeat: repeat-x;
+position:absolute;
+bottom:20px;
+width: 1000vw;
+height:20vh;
+animation: trackanimation 6s linear infinite;
+}
+
+/* Car styling and Positioning */
+.car{
+background-image: url("images-removebg-preview-removebg-preview.png");
+background-repeat: repeat-x;
+background-size: cover;
+width: 17rem;
+height: 4.699rem;
+position: absolute;
+bottom: 77px;
+left: 386;
+}
+
+.car1{
+    background-image: url("images-removebg-preview-removebg-preview.png");
+    background-repeat: repeat-x;
+    background-size: cover;
+    width: 17rem;
+    height: 4.699rem;
+    position: absolute;
+    bottom: 77px;
+    left: 1000;
+    }
+
+
+ 
+@keyframes wheelanimation{
+    100% {
+        transform: rotate(360deg);
+    }
+}
